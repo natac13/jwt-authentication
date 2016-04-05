@@ -1,0 +1,49 @@
+{
+  "name": "jwt-authentication",
+  "version": "1.0.0",
+  "description": "authO tutorial for React Redux JWT authentciation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint app/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natac13/jwt-authentication.git"
+  },
+  "keywords": [
+    "authO",
+    "JWT",
+    "React",
+    "Redux",
+    "tutorial"
+  ],
+  "author": "Sean Campbell <sean.campbell13@gmail.com> (http://seancampbellnatac.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natac13/jwt-authentication/issues"
+  },
+  "homepage": "https://github.com/natac13/jwt-authentication#readme",
+  "dependencies": {
+    "axios": "0.9.1",
+    "bluebird": "3.3.4",
+    "express": "4.13.4",
+    "immutable": "3.7.6",
+    "react": "0.14.8",
+    "react-dom": "0.14.8",
+    "react-redux": "4.4.1",
+    "react-router": "2.0.1",
+    "redux": "3.3.1",
+    "redux-thunk": "2.0.1"
+  },
+  "devDependencies": {
+    "babel-loader": "6.2.4",
+    "babel-preset-react-hmre": "1.1.1",
+    "eslint": "2.7.0",
+    "eslint-config-natac13": "1.2.0",
+    "redux-logger": "2.6.1",
+    "webpack": "1.12.14",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-hot-middleware": "2.10.0"
+  }
+}
